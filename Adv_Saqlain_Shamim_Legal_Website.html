@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Adv. Saqlain Shamim — Advocate, Supreme Court of India. Criminal Litigation and Supreme Court Practice.">
+<title>Adv. Saqlain Shamim | Advocate, Supreme Court of India</title>
+<style>
+:root{--ink:#15202b;--muted:#65717d;--gold:#b18a45;--cream:#f7f4ee;--white:#fff;--line:#e7e1d6;--dark:#101820}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Georgia,"Times New Roman",serif;color:var(--ink);line-height:1.65;background:#fff}
+a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+.topbar{background:var(--dark);color:#fff;font:13px Arial,sans-serif;padding:8px 0}
+.topbar .container{display:flex;justify-content:space-between;gap:20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+.navin{height:76px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:21px;letter-spacing:.5px;font-weight:bold}.logo span{display:block;font:11px Arial,sans-serif;letter-spacing:2px;color:var(--gold);margin-top:2px}
+.links{display:flex;gap:28px;font:13px Arial,sans-serif;text-transform:uppercase;letter-spacing:1px}
+.links a:hover{color:var(--gold)}
+.btn{display:inline-block;padding:13px 22px;border:1px solid var(--gold);font:12px Arial,sans-serif;letter-spacing:1.3px;text-transform:uppercase;transition:.25s}
+.btn.primary{background:var(--gold);color:#fff}.btn:hover{transform:translateY(-2px)}
+.hero{background:linear-gradient(110deg,#f7f4ee 0%,#fff 65%);padding:105px 0 95px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.45fr .8fr;gap:70px;align-items:center}
+.kicker{font:12px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:18px}
+h1{font-size:clamp(42px,6vw,72px);line-height:1.02;font-weight:normal;margin-bottom:18px}
+.hero h2{font-size:22px;font-weight:normal;color:#384551;margin-bottom:24px}
+.hero p{max-width:680px;color:var(--muted);font-size:17px;margin-bottom:30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.monogram{width:280px;height:330px;border:1px solid #d7ccb9;background:#efe9dd;display:flex;align-items:center;justify-content:center;position:relative;margin:auto}
+.monogram:before{content:"S S";font-size:74px;color:var(--gold);letter-spacing:8px}
+.monogram:after{content:"ADVOCATE • SUPREME COURT OF INDIA";position:absolute;bottom:28px;font:10px Arial,sans-serif;letter-spacing:1.7px;color:#655d50}
+section{padding:88px 0}
+.section-head{max-width:760px;margin-bottom:44px}.eyebrow{font:11px Arial,sans-serif;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+h2{font-size:39px;font-weight:normal;line-height:1.15;margin-bottom:14px}
+.lead{color:var(--muted);font-size:17px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px}
+.quote{border-left:2px solid var(--gold);padding:15px 0 15px 28px;font-size:25px;font-style:italic;margin-top:25px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{border:1px solid var(--line);padding:28px;background:#fff;min-height:190px}
+.card h3{font-size:20px;font-weight:normal;margin-bottom:9px}.card p{font-size:14px;color:var(--muted)}
+.practice{background:var(--cream)}
+.affiliations{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.aff{background:#fff;padding:26px;min-height:125px}.aff strong{display:block;font-size:17px;font-weight:normal}.aff span{display:block;font:11px Arial,sans-serif;color:var(--gold);text-transform:uppercase;letter-spacing:1.2px;margin-top:8px}
+.profile{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.profile-list{list-style:none;border-top:1px solid var(--line)}
+.profile-list li{padding:15px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;font-size:15px}.profile-list b{font-weight:normal;color:var(--muted)}
+.cta{background:var(--dark);color:#fff;text-align:center;padding:72px 0}.cta p{color:#c5cbd0;max-width:680px;margin:0 auto 26px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.contact-box{border-top:1px solid var(--line);padding-top:20px;margin-bottom:22px}.contact-box small{font:10px Arial,sans-serif;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold)}.contact-box div{font-size:18px;margin-top:4px}
+.social{display:flex;gap:10px;flex-wrap:wrap}.social .btn{font-size:10px}
+footer{background:#0b1116;color:#b8c0c6;padding:30px 0;font:12px Arial,sans-serif}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.disclaimer{background:#f7f7f6;border-top:1px solid var(--line);padding:30px 0;color:#737b82;font:11px Arial,sans-serif}
+.mobile{display:none}
+@media(max-width:850px){
+.links{display:none}.mobile{display:block;font:12px Arial,sans-serif}
+.hero{padding:70px 0}.hero-grid,.about,.profile,.contact{grid-template-columns:1fr}.monogram{width:220px;height:260px}.cards{grid-template-columns:1fr 1fr}.affiliations{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){.cards,.affiliations{grid-template-columns:1fr}h2{font-size:31px}.topbar .container{display:block;text-align:center}.topbar .container div+div{margin-top:3px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><div>Adv. Saqlain Shamim</div><div>+91 76102 72750 &nbsp; | &nbsp; advsaqlainshamim@gmail.com</div></div></div>
+
+<nav><div class="container navin">
+<a class="logo" href="#home">SAQLAIN SHAMIM<span>ADVOCATE • SUPREME COURT OF INDIA</span></a>
+<div class="links"><a href="#about">About</a><a href="#practice">Practice</a><a href="#profile">Profile</a><a href="#internship">Internship</a><a href="#contact">Contact</a></div>
+<a class="btn primary mobile" href="#contact">Consult</a>
+</div></nav>
+
+<main id="home">
+<section class="hero"><div class="container hero-grid">
+<div>
+<div class="kicker">Advocate • Supreme Court of India</div>
+<h1>Adv. Saqlain Shamim</h1>
+<h2>Criminal Litigation &amp; Supreme Court Practice</h2>
+<p>Focused legal practice in criminal and liberty-related matters, supported by rigorous legal research, precise drafting and careful preparation for court proceedings.</p>
+<div class="actions"><a class="btn primary" href="#contact">Request a Consultation</a><a class="btn" href="#practice">Explore Practice Areas</a></div>
+</div>
+<div class="monogram" aria-label="Advocate profile placeholder"></div>
+</div></section>
+
+<section id="about"><div class="container about">
+<div><div class="eyebrow">About the Advocate</div><h2>Principled advocacy. Rigorous preparation.</h2>
+<p class="lead">Adv. Saqlain Shamim is an Advocate practising before the Supreme Court of India, with a primary focus on criminal litigation and Supreme Court practice.</p>
+<p style="margin-top:18px;color:#65717d">The practice encompasses legal research, drafting, litigation strategy and representation in matters involving criminal law, personal liberty and related proceedings.</p>
+<div class="quote">“Principled Advocacy. Rigorous Preparation. Effective Representation.”</div></div>
+<div>
+<div class="eyebrow">Professional Focus</div>
+<ul class="profile-list">
+<li><span>Primary Practice</span><b>Criminal Litigation</b></li>
+<li><span>Principal Forum</span><b>Supreme Court of India</b></li>
+<li><span>Core Matters</span><b>NDPS, ED, Excise, Bail</b></li>
+<li><span>Special Proceedings</span><b>Transfer Petitions</b></li>
+<li><span>Approach</span><b>Research-led &amp; prepared</b></li>
+</ul></div>
+</div></section>
+
+<section id="practice" class="practice"><div class="container">
+<div class="section-head"><div class="eyebrow">Practice Areas</div><h2>Focused legal practice</h2><p class="lead">Selected areas in which legal research, drafting and representation may be undertaken, subject to the facts and procedural requirements of each matter.</p></div>
+<div class="cards">
+<div class="card"><h3>Criminal Litigation</h3><p>Representation and litigation support in criminal proceedings, including research, drafting and case strategy.</p></div>
+<div class="card"><h3>NDPS Matters</h3><p>Legal assistance in matters arising under the Narcotic Drugs and Psychotropic Substances Act.</p></div>
+<div class="card"><h3>ED Matters</h3><p>Legal assistance in proceedings involving the Enforcement Directorate, depending on the nature and stage of proceedings.</p></div>
+<div class="card"><h3>Excise Act Cases</h3><p>Representation and assistance in matters arising under applicable excise laws.</p></div>
+<div class="card"><h3>Bail &amp; Liberty</h3><p>Assistance in appropriate bail and liberty-related proceedings based on the facts and applicable law.</p></div>
+<div class="card"><h3>Transfer Petitions</h3><p>Drafting and representation in transfer petitions before the Supreme Court of India.</p></div>
+</div></div></section>
+
+<section><div class="container">
+<div class="section-head"><div class="eyebrow">Professional Affiliations</div><h2>Professional associations</h2></div>
+<div class="affiliations">
+<div class="aff"><strong>Supreme Court Bar Association</strong><span>Member • SCBA</span></div>
+<div class="aff"><strong>Delhi High Court Bar Association</strong><span>Member • DHCBA</span></div>
+<div class="aff"><strong>International Council of Jurists, London</strong><span>Member</span></div>
+<div class="aff"><strong>Legal Aid Council, Government of India</strong><span>Member</span></div>
+</div></div></section>
+
+<section id="profile" class="practice"><div class="container profile">
+<div><div class="eyebrow">Professional Profile</div><h2>Experience &amp; qualifications</h2>
+<p class="lead">A litigation-oriented professional profile combining courtroom practice, legal research and drafting.</p>
+</div>
+<div><ul class="profile-list">
+<li><span>Degree</span><b>B.A. LL.B. (Hons.)</b></li>
+<li><span>University</span><b>RKDF University, Bhopal</b></li>
+<li><span>Professional Qualification</span><b>Advocate • AIBE Qualified</b></li>
+<li><span>Practice</span><b>Supreme Court of India</b></li>
+<li><span>Professional Experience</span><b>Criminal Litigation &amp; Supreme Court Practice</b></li>
+</ul></div></div></section>
+
+<section id="internship"><div class="container">
+<div class="section-head"><div class="eyebrow">Chambers</div><h2>Internship Opportunities</h2><p class="lead">Internship opportunities may be available for law students and young legal professionals interested in litigation and Supreme Court practice.</p></div>
+<div class="cards">
+<div class="card"><h3>Legal Research</h3><p>Case-law research, statutory research and preparation of legal propositions.</p></div>
+<div class="card"><h3>Drafting</h3><p>Exposure to petitions, applications, written submissions and related legal documents.</p></div>
+<div class="card"><h3>Court Practice</h3><p>Exposure to court proceedings, litigation workflow and procedural practice.</p></div>
+</div>
+<div style="margin-top:30px"><a class="btn primary" href="mailto:advsaqlainshamim@gmail.com?subject=Internship%20Application">Apply for Internship</a></div>
+</div></section>
+
+<section class="cta"><div class="container"><div class="eyebrow">Legal Consultation</div><h2>Discuss your matter with the chambers</h2><p>For consultation or professional enquiries, please contact the chambers with a brief description of the matter and relevant procedural details.</p><a class="btn primary" href="#contact">Contact Chambers</a></div></section>
+
+<section id="contact"><div class="container contact">
+<div><div class="eyebrow">Contact</div><h2>Adv. Saqlain Shamim</h2><p class="lead">Advocate | Supreme Court of India</p>
+<div class="contact-box"><small>Phone</small><div><a href="tel:+917610272750">+91 76102 72750</a></div></div>
+<div class="contact-box"><small>Email</small><div><a href="mailto:advsaqlainshamim@gmail.com">advsaqlainshamim@gmail.com</a></div></div>
+<div class="social">
+<a class="btn" href="https://www.instagram.com/adv.syedsaqlainshamim" target="_blank">Instagram</a>
+<a class="btn" href="https://www.linkedin.com/in/saqlain-shamim-71a941209" target="_blank">LinkedIn</a>
+<a class="btn" href="https://wa.me/917610272750" target="_blank">WhatsApp</a>
+<a class="btn" href="https://whatsapp.com/channel/0029VaECHKm9Bb5xYs6K4x24" target="_blank">WhatsApp Channel</a>
+</div></div>
+<div><div class="eyebrow">Enquiry</div><h2>Request a consultation</h2>
+<form action="mailto:advsaqlainshamim@gmail.com" method="post" enctype="text/plain">
+<input required name="Name" placeholder="Full Name" style="width:100%;padding:14px;margin:0 0 12px;border:1px solid #ddd">
+<input required name="Phone" placeholder="Phone Number" style="width:100%;padding:14px;margin:0 0 12px;border:1px solid #ddd">
+<input required type="email" name="Email" placeholder="Email Address" style="width:100%;padding:14px;margin:0 0 12px;border:1px solid #ddd">
+<input name="Matter" placeholder="Nature of Matter" style="width:100%;padding:14px;margin:0 0 12px;border:1px solid #ddd">
+<textarea name="Brief" placeholder="Brief description" rows="5" style="width:100%;padding:14px;margin:0 0 12px;border:1px solid #ddd"></textarea>
+<button class="btn primary" type="submit">Send Enquiry</button>
+</form></div>
+</div></section>
+
+<div class="disclaimer"><div class="container"><strong>Disclaimer:</strong> The information on this website is provided for general informational purposes only and does not constitute legal advice. Use of this website or submission of an enquiry does not by itself create an advocate-client relationship. No representation or assurance is made regarding the outcome of any particular matter. All engagements remain subject to applicable law, professional rules and acceptance by the chambers.</div></div>
+</main>
+
+<footer><div class="container foot"><div>© 2026 Adv. Saqlain Shamim. All Rights Reserved.</div><div>Criminal Litigation • Supreme Court Practice</div></div></footer>
+</body>
+</html>
